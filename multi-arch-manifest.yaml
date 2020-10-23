@@ -1,20 +1,20 @@
-image: metabaron/multi-arch-example:latest
+image: metabaron/docker-multi-arch-example:latest
 manifests:
-  - image: metabaron/multi-arch-example:amd64
+  - image: metabaron/docker-multi-arch-example:amd64
     platform:
       architecture: amd64
       os: linux
-#  - image: metabaron/multi-arch-example:arm32v5
+#  - image: metabaron/docker-multi-arch-example:arm32v5
 #    platform:
 #      architecture: arm
 #      os: linux
 #      variant: v5
-#  - image: metabaron/multi-arch-example:arm32v7
+#  - image: metabaron/docker-multi-arch-example:arm32v7
 #    platform:
 #      architecture: arm
 #      os: linux
 #      variant: v7
-  - image: metabaron/multi-arch-example:arm64v8
+  - image: metabaron/docker-multi-arch-example:arm64v8
     platform:
       architecture: arm64
       os: linux
